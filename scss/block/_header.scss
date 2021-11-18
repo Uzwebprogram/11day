@@ -1,0 +1,103 @@
+body{
+    overflow-x: hidden ;
+}
+.form-control{
+    max-width: 400px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    margin-top: -15px;
+}
+.form-controls{
+    margin-top: -20px ;
+}
+.form-select{
+    max-width: 400px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.right-side{
+    margin-left: 30px;
+}
+
+.active-alert{
+    padding-right: 320px;
+}
+.calendar{
+    margin-bottom: 4px;
+    margin-right: 5px;
+}
+.father-button{
+    display: flex;
+    justify-content: space-around;
+}
+.btn-outline-primary{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+    padding: 5px;
+font-size: 13px;
+font-weight: 700;
+}
+.btn-outline-success{
+    margin: 0;
+    padding: 0;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 13px;
+font-weight: 700;
+}
+.btn-outline-danger{
+    margin: 0;
+    padding: 0;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    font-weight: 700;
+}
+.star{
+    margin-bottom: 3.8px;
+    margin-right: 9px;
+}
+.btn-ave{
+    margin-left: 20px;
+}
+.avengers{
+    border: 1px solid rgba(228, 210, 210, 0.836);
+    border-radius: 3px;
+}
+.heading-4{
+    margin: 0;
+    padding: 0;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    margin-left: 20px;
+}
+.next{
+    margin-top: 100px;
+    margin-left: 270px;
+}
+.btn-s{
+    width: 400px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    bottom: none;
+    margin-top: 15px;
+}
+.card{
+    list-style-type: none;
+}
+.avanger-image{
+    width: 310px;
+    height: 180px;
+}
+.father {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-left: 30px;
+    .card {
+        margin: 10px;
+    }
+}

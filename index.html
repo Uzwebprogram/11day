@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>document</title>
+</head>
+<body>      
+    <div class="container">   
+        <header class="header">
+            <h1 class="header__heading text-center">Movies catalog</h1>
+        </header>     
+        <div class="movies d-flex">
+            <div class="movies__left-side">
+                <form action="https://echo.htmlacademy.ru" method="POST">
+                    <label for="exampleDataList" class="form-label"></label>
+                    <input class="form-control" list="datalistOptions" name="movies" id="exampleDataList" placeholder="select movies search...">
+                    <datalist id="datalistOptions">
+                                        <option value="Avengers">
+                                        <option value="Spiderman">
+                                        <option value="Hulk">
+                                        <option value="Capitan America">
+                                        <option value="Iron Man">
+                                        <option value="Thor">
+                    </datalist>
+                    <label for="exampleDataList" class="form-label" for="part"></label>
+                    <input class="form-control form-controls" list="datalistOptions1" name="part" id="part" placeholder="select part...">
+                    <datalist id="datalistOptions1">
+                                        <option value="1-part">
+                                        <option value="2-part">
+                                        <option value="3-part">
+                                        <option value="4-part">
+                                        <option value="5-part">
+                    </datalist>
+                    <select class="form-select mb-3" name="year" aria-label="Default select example">
+                        <option selected>All</option>
+                        <option value="1">2018</option>
+                        <option value="2">2015</option>
+                        <option value="3">2012</option>
+                        <option value="3">2008</option>
+                    </select>
+                    <select class="form-select" name="rating" aria-label="Default select example">
+                        <option selected>Rating (high to low)</option>
+                        <option value="1">⭐️⭐️⭐️⭐️⭐️</option>
+                        <option value="2">⭐️⭐️⭐️⭐️</option>
+                        <option value="3">⭐️⭐️⭐️</option>
+                        <option value="3">⭐️⭐️</option>
+                        <option value="3">⭐️</option>
+                    </select>
+                    <button type="submit" class="btn btn-s btn-primary mb-3">Search</button>
+                </form>
+                <h2 class="left-side__heading">Bookmarked movies</h2>
+                <div class="avengers pl-1">
+                    <p class="heading-4">Avengers: Infinity War</p>
+                    <button type="button btn-ave" class="btn btn-danger mb-3 btn-ave">Remove</button>
+                </div>
+                <div class="avengers pl-1">
+                    <p class="heading-4">The Avengers</p>
+                    <button type="button btn-ave" class="btn btn-danger mb-3 btn-ave">Remove</button>
+                </div>
+                <div class="avengers pl-1">
+                    <p class="heading-4">12 Years a Slave</p>
+                    <button type="submit" class="btn btn-danger  mb-3 btn-ave">Remove</button>
+                </div>
+            </div>
+
+            <div class="right-side">
+                <h4 class="right-side__heading-3">Search result: 39</h4>
+                
+                <div class="overflow-hidden">
+                    <div class="row gx-5">
+                        <div class="col">
+                            <div class="alert alert-info active-alert" role="alert">
+                                Use the form on the left to search for a movie  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" overflow-hidden">
+                    <div class="row gx-5">
+                      <div class="col">
+                       <ul class="card">
+                        <!-- <div class="card" style="width: 18rem;"> -->
+                            <!-- <img id="image" src="" width="310" height="180" class="card-img-top" alt="avangers">
+                            <div class="card-body">
+                              <h5 class="card-title">Avangers: Infinity War</h5>
+                              <p class="card-text"> <img class="calendar" src="./image/calendar.png" width="16" height="16" alt="calendar"> 2018</p>
+                              <p class="card-text"><img class="star" src="./image/star.png" width="16" height="16" alt="calendar">8.7</p>
+                            </div>
+                            <div class="father-button">
+                                <button type="button " class="btn btn-outline-primary">Watch trailler</button>
+                                <button type="button" class="btn btn-outline-success">More  Info</button>
+                                <button type="button" class="btn btn-outline-danger">Bookmark</button>
+                            </div> -->
+                          <!-- </div> -->
+
+                       </ul>
+
+
+                      </div>
+                      <div class="col">
+                        <div class="">
+                            <div class="father">
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="next">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                          <li class="page-item"><a class="page-link" href="#">1</a></li>
+                          <li class="page-item"><a class="page-link" href="#">2</a></li>
+                          <li class="page-item"><a class="page-link" href="#">3</a></li>
+                          <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        </ul>
+                      </nav>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="./js/data.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
